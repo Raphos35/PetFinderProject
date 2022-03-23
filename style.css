@@ -9,4 +9,31 @@
 
 body {
     font-size: 100%;
+    background-color: rgb(196, 196, 216);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+.cabecalho-logo {
+    height: 65px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 40px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Courgette', cursive;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(131, 7, 231);
+    
 }
