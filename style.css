@@ -37,3 +37,23 @@ body {
     color: rgb(131, 7, 231);
     
 }
+
+.conteudo {
+    margin-bottom: 48px;
+    border-top: 0.4px solid #934dcc;
+}
+
+.conteudo-titulo {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgba(130, 7, 231, 0.685);
+}
+
+.conteudo-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+
+}
